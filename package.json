@@ -24,7 +24,7 @@
   "dependencies": {
     "amorph": "^1.1.0",
     "amorph-buffer": "^1.1.1",
-    "arguguard": "0.0.5",
+    "arguguard": "^2.1.1",
     "js-sha3": "^0.5.7"
   }
 }

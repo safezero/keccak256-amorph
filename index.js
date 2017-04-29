@@ -7,7 +7,7 @@ Amorph.loadPlugin(amorphBufferPlugin)
 Amorph.ready()
 
 module.exports = function keccak256(prehash) {
-  arguguard('keccak256', [Amorph], arguments)
+  arguguard('keccak256', ['Amorph'], arguments)
   return prehash.as('uint8Array', (uint8Array) => {
     return Amorph.crossConverter.convert(_keccak256(uint8Array), 'hex', 'uint8Array')
   })
