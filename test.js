@@ -3,6 +3,9 @@ const Amorph = require('amorph')
 const chai = require('chai')
 const chaiAmorph = require('chai-amorph')
 
+Amorph.loadPlugin(require('amorph-buffer'))
+Amorph.ready()
+
 chai.use(chaiAmorph)
 chai.should()
 
