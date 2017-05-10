@@ -20,7 +20,7 @@
     "amorph": "^1.2.0",
     "amorph-buffer": "^1.1.4",
     "chai": "^3.5.0",
-    "chai-amorph": "0.0.2",
+    "chai-amorph": "0.0.5",
     "mocha": "^3.2.0",
     "time-require": "^0.1.2"
   },
